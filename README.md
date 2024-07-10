@@ -34,13 +34,5 @@ To explore the exercises and projects or use the solutions provided:
 
 ## Resources
 
-- [University of Helsinki's Java Programming MOOC](https://mooc.fi/en/)
+- [University of Helsinki's Java Programming MOOC]([https://mooc.fi/en/](https://java-programming.mooc.fi/part-1))
 - [GitHub Documentation](https://docs.github.com/)
-
-## License
-
-This repository is licensed under the MIT License. See the LICENSE file for more information.
-
----
-
-Feel free to customize this README template further based on your specific experiences, additional content in your repository, or any additional information you want to provide about your journey through the University of Helsinki's Java Programming MOOC. This README serves as a brief introduction to your repository and helps viewers understand its contents and purpose.
