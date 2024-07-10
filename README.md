@@ -34,5 +34,5 @@ To explore the exercises and projects or use the solutions provided:
 
 ## Resources
 
-- [University of Helsinki's Java Programming MOOC]([https://mooc.fi/en/](https://java-programming.mooc.fi/part-1))
+- [University of Helsinki's Java Programming MOOC](https://mooc.fi/en/](https://java-programming.mooc.fi/part-1)
 - [GitHub Documentation](https://docs.github.com/)
