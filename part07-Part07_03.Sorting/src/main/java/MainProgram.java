@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class MainProgram {
 
@@ -32,8 +33,16 @@ public class MainProgram {
         return index;
     }
 
-    // public static int indexOfSmallestFrom(int[] table, int startIndex){
-
-    // }
+    public static int indexOfSmallestFrom(int[] table, int startIndex){
+        int minimum = table[startIndex];
+        int index = startIndex;
+        for (int i = startIndex; i < table.length - 1; i++) {
+            if (table[i] < minimum) {
+                minimum = table[i];
+                index++;
+            }
+        }
+        return index;
+    }
 
 }
