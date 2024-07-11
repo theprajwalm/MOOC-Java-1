@@ -33,16 +33,16 @@ public class MainProgram {
         return index;
     }
 
-    public static int indexOfSmallestFrom(int[] table, int startIndex){
-        int minimum = table[startIndex];
-        int index = startIndex;
-        for (int i = startIndex; i < table.length - 1; i++) {
-            if (table[i] < minimum) {
-                minimum = table[i];
-                index++;
+    public static int indexOfSmallestFrom(int[] array, int startIndex){
+        int smallestIndex = startIndex;
+        int minimumValue = array[startIndex];
+        for (int i = startIndex + 1; i < array.length; i++) {
+            if (minimumValue > array[i]) {
+                minimumValue = array[i];
+                smallestIndex = i;
             }
         }
-        return index;
+        return smallestIndex;
     }
 
 }
