@@ -45,4 +45,17 @@ public class MainProgram {
         return smallestIndex;
     }
 
+    public static void swap(int[] array, int index1, int index2){
+        int helper = array[index1];
+        array[index1] = array[index2];
+        array[index2] = helper;
+    }
+
+    public static void sort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            int index1 = i;
+            int index2 = indexOfSmallestFrom(array, i);
+            swap(array, index1, index2);
+        }
+    }
 }
